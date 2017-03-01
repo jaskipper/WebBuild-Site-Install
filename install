@@ -72,6 +72,6 @@ done
 git clone https://github.com/jaskipper/DO-ssl-setup.git
 
 INSTALL_LOC="/var/www/html"
-echo "INSTALL_LOC=/var/www/html" >> /root/config.conf
+export INSTALL_LOC
 
 DO-ssl-setup/sslsetup
