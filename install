@@ -71,4 +71,6 @@ done
 
 git clone https://github.com/jaskipper/DO-ssl-setup.git
 
+INSTALL_LOC="/var/www/html"
+
 DO-ssl-setup/sslsetup
